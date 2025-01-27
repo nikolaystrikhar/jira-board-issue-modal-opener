@@ -10,6 +10,11 @@
 // Modal.
 
 const style = `
+#jira-issue-header {
+  position: relative;
+  background: transparent;
+}
+
 [data-testid="issue.views.issue-details.issue-layout.compact-layout"] {
  position: fixed;
  top: 60px;
